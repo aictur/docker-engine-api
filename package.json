@@ -1,22 +1,28 @@
 {
-  "name": "typescript-basic-skeleton",
-  "version": "2.0.0",
-  "description": "Bootstrap your new TypeScript project with the bare minimum dependencies",
+  "name": "node-docker-engine",
+  "version": "1.0.0",
+  "description": "Bootstrap Docker Engine API with TypeScrypt support",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore . --ext .ts",
     "lint:fix": "npm run lint -- --fix",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodelyTV/typescript-basic-skeleton.git"
+    "url": "git+https://github.com/aictur/docker-engine-api.git"
   },
-  "author": "codelytv",
+  "author": "aictur",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodelyTV/typescript-basic-skeleton/issues"
+    "url": "https://github.com/aictur/docker-engine-api/issues"
   },
-  "homepage": "https://github.com/CodelyTV/typescript-basic-skeleton#readme",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "main": "dist/index.js",
+  "homepage": "https://github.com/aictur/docker-engine-api#readme",
   "devDependencies": {
     "@swc/core": "^1.2.172",
     "@swc/jest": "^0.2.20",
@@ -32,5 +38,8 @@
     "jest": "^28.0.1",
     "prettier": "^2.6.2",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "docker-modem": "^3.0.3"
   }
 }
