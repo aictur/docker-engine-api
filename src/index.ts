@@ -1,7 +1,7 @@
+import DockerModem from "docker-modem";
+
 import Docker from "./Docker";
 import DockerConnection from "./DockerConnection";
-
-export const DockerModem = require("docker-modem");
 
 export default Docker;
 

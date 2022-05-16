@@ -1,6 +1,6 @@
-import DockerConnection from "./DockerConnection";
+import DockerModem from "docker-modem";
 
-const DockerModem = require("docker-modem");
+import DockerConnection from "./DockerConnection";
 
 export default class Docker {
   readonly connection: DockerConnection;

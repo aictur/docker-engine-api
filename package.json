@@ -26,6 +26,7 @@
   "devDependencies": {
     "@swc/core": "^1.2.172",
     "@swc/jest": "^0.2.20",
+    "@types/docker-modem": "^3.0.2",
     "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.21.0",
     "@typescript-eslint/parser": "^5.21.0",
