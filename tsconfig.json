@@ -8,7 +8,9 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "declaration": true,
+    "declarationDir": "dist"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
