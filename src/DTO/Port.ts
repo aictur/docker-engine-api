@@ -9,6 +9,6 @@ export default class Port {
   }
 
   public get value(): number {
-    return this.value;
+    return this._value;
   }
 }

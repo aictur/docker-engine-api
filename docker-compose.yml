@@ -2,7 +2,8 @@ version: '3.3'
 services:
   node:
     image: node:17
-    command: bash -c "npm i && npx tsc --watch"
+    user: ${USER_ID:-1000}
+    command: bash -c "npm i && npm run watch"
     tty: true
     volumes:
       - .:/app

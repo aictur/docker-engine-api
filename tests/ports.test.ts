@@ -22,4 +22,7 @@ describe("PortDTO", () => {
 
     expect(getPort).toThrowError();
   });
+  it("stores the value correclty", () => {
+    expect(new Port(80).value).toBe(80);
+  });
 });
